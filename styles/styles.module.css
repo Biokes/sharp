@@ -1,0 +1,20 @@
+.current{
+    border-image: linear-gradient( to right, #d8d4d4, #d8d4d4 )0 0  1 0;
+    border-width: 2px;
+    @apply cursor-pointer font-[700]
+}
+.text{
+    @apply justify-center items-center p-[10px_5px] cursor-pointer font-[700];
+}
+.modal{
+    background: rgba(0, 0, 0, 1.5);
+}
+.inputCols{
+    @apply flex flex-col items-center justify-center gap-[20px]
+}
+.inputCols > input{
+    @apply w-[70%] h-[50px] rounded-md text-black px-[15px]
+}
+.buttons> button{
+    @apply w-[100px] rounded border-[1px] border-white mt-[30px] py-[7px] hover:cursor-pointer hover:bg-gray-400 hover:text-black
+}
